@@ -9,10 +9,16 @@ public class ShootingMechanics : MonoBehaviour
 {
     [SerializeField] private Rigidbody _projectile;
     [SerializeField] private float _projectileSpeed = 20f;
+    private PhotonView _PV;
+
+    private void Start()
+    {
+        _PV = gameObject.GetComponent<PhotonView>();
+    }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && _PV.IsMine)
         {
             GameObject cloneObject = PhotonNetwork.Instantiate(_projectile.name, transform.position, transform.rotation);
             Rigidbody cloneRigidbody = cloneObject.GetComponent<Rigidbody>();

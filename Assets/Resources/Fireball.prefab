@@ -20,7 +20,6 @@ GameObject:
   - component: {fileID: -4822540917554552796}
   - component: {fileID: -8848553711012196215}
   - component: {fileID: -9022668597240699371}
-  - component: {fileID: 4991249559710224446}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Weapon
@@ -4979,10 +4978,10 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: -9022668597240699371}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -5001,18 +5000,3 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &4991249559710224446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3114833466959025359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27dd8df2e2e09464abc78689b452d27b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: dbb7d9436922f7744a12cc425d6d4d22, type: 2}
-  name: Fireball
-  damage: 55

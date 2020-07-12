@@ -1,38 +1,20 @@
-﻿using Photon.Pun;
+﻿using System;
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MobInfo : MonoBehaviour
 {
-    public int _healthPoint = 100;
+    [SerializeField] private int _healthPoint = 100;
 
-    private void Update()
-    {
-        if (_healthPoint<1)
-        {
-            PhotonView.Get(this).RPC("DestroyMob", RpcTarget.All);
-        }
-    }
-
-    [PunRPC]
-    private void DestroyMob()
-    {
-        PhotonNetwork.Destroy(gameObject);
-    }
-
-    private void TakedDamage(int damage)
+    public void TakeDamage(int damage)
     {
         _healthPoint -= damage;
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Weapon"))
+        if (_healthPoint <= 0)
         {
-            TakedDamage(collision.gameObject.GetComponent<WeaponInfo>().damage);
+            PhotonNetwork.Destroy(gameObject);
         }
     }
-
-
 }

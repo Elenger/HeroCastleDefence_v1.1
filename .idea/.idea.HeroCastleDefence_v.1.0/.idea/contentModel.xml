@@ -16,25 +16,73 @@
           </e>
         </e>
         <e p="Code" t="Include">
+          <e p="Arena" t="Include">
+            <e p="Interface" t="Include">
+              <e p="Building" t="Include">
+                <e p="PressFPanelAvailability.cs" t="Include" />
+                <e p="ShopInterface" t="Include">
+                  <e p="ShopPanelShow.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ChangeSliderHealthBar.cs" t="Include" />
+              <e p="OwnPicture.cs" t="Include" />
+            </e>
+            <e p="ShopUpgradeCharacterController.cs" t="Include" />
+          </e>
+          <e p="BrokedScripts" t="Include">
+            <e p="DamageSystem_With_Interface.cs" t="Include" />
+          </e>
+          <e p="BuildStatement" t="Include">
+            <e p="MainCastleInfo.cs" t="Include" />
+            <e p="ShopAimCharacter.cs" t="Include" />
+            <e p="ShopHighlight.cs" t="Include" />
+            <e p="ShopInfo.cs" t="Include" />
+            <e p="ShopInteraction.cs" t="Include" />
+          </e>
           <e p="Characters" t="Include">
-            <e p="Movement.cs" t="Include" />
-            <e p="PhotonPlayer.cs" t="Include" />
+            <e p="AimCharacterToMob.cs" t="Include" />
+            <e p="CharacterAnimation.cs" t="Include" />
+            <e p="CharacterAutoAim.cs" t="Include" />
+            <e p="CharacterCreation.cs" t="Include" />
+            <e p="CharacterHealthController.cs" t="Include" />
+            <e p="CharacterInfo.cs" t="Include" />
+            <e p="CharacterRespawnDeathController.cs" t="Include" />
+            <e p="CharacterStats.cs" t="Include" />
+            <e p="CharacterStatsInfo.cs" t="Include" />
+            <e p="CharacterWeaponTransform.cs" t="Include" />
+            <e p="Interface" t="Include">
+              <e p="CharacterHealthBarController.cs" t="Include" />
+            </e>
             <e p="ShootingMechanics.cs" t="Include" />
+            <e p="ThirdPersonMovement.cs" t="Include" />
           </e>
           <e p="CharacterSelection" t="Include">
             <e p="CharacterSelect.cs" t="Include" />
+            <e p="DisplayEnemyPicture.cs" t="Include" />
+            <e p="LoadArenaScene.cs" t="Include" />
+            <e p="PlayerIsReadyProperties.cs" t="Include" />
             <e p="SelectedCharacter.cs" t="Include" />
+            <e p="TimeToLoadArenaScene.cs" t="Include" />
           </e>
-          <e p="HCDGame.cs" t="Include" />
+          <e p="DamageSystem" t="Include">
+            <e p="DamageSystem.cs" t="Include" />
+            <e p="DefeatController.cs" t="Include" />
+          </e>
+          <e p="EventManager.cs" t="Include" />
           <e p="Lobby" t="Include">
+            <e p="AvatarMeshToResource.cs" t="Include" />
             <e p="LobbyMainPanel.cs" t="Include" />
             <e p="LobbyTopPanel.cs" t="Include" />
             <e p="PlayerListEntry.cs" t="Include" />
             <e p="RoomListEntry.cs" t="Include" />
           </e>
           <e p="Mobs" t="Include">
+            <e p="MobAttack.cs" t="Include" />
             <e p="MobCreation.cs" t="Include" />
+            <e p="MobHighlightingOnAim.cs" t="Include" />
             <e p="MobInfo.cs" t="Include" />
+            <e p="MobNavMesh.cs" t="Include" />
+            <e p="MobWeaponAnimation.cs" t="Include" />
           </e>
           <e p="Options" t="Include">
             <e p="ArenaMobBuyMenu.cs" t="Include" />
@@ -47,10 +95,15 @@
             <e p="GameManager.cs" t="Include" />
             <e p="GameSetup.cs" t="Include" />
           </e>
-          <e p="WalkSound.cs" t="Include" />
+          <e p="ShaderTest.cs" t="Include" />
+          <e p="Sounds" t="Include">
+            <e p="WalkSound.cs" t="Include" />
+          </e>
           <e p="Weapons" t="Include">
-            <e p="DestroyProjectile.cs" t="Include" />
-            <e p="Fireball.cs" t="Include" />
+            <e p="CharacterWeapon" t="Include">
+              <e p="DestroyProjectile.cs" t="Include" />
+              <e p="Fireball.cs" t="Include" />
+            </e>
             <e p="Weapon.cs" t="Include" />
             <e p="WeaponInfo.cs" t="Include" />
           </e>
@@ -397,6 +450,44 @@
                 <e p="TextToggleIsOnTransition.cs" t="Include" />
               </e>
             </e>
+          </e>
+        </e>
+        <e p="Prefabs" t="Include">
+          <e p="Arena" t="Include">
+            <e p="Fortress Gate_Free" t="Include">
+              <e p="readme.txt" t="Include" />
+            </e>
+            <e p="FreeDungeon" t="Include">
+              <e p="freeDungeon_ReadMe.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

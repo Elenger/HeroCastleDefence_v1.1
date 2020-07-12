@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Character_Circle
+  m_Shader: {fileID: -6465566751694194690, guid: ea9be195cce674140a34413d921d0231,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_177358FC:
+        m_Texture: {fileID: 2800000, guid: 156acff1de972774db370d544c433138, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1A134606_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1B09684C: 1
+    - Vector1_1D3BB369: 1000000
+    - Vector1_5D572D37: 0
+    - Vector1_74269D14: 3
+    - Vector1_8572CF3F: 1
+    - Vector1_A7952BDE: 2
+    - Vector1_EB179C55: 0
+    - Vector1_ED16F74F: 10
+    m_Colors:
+    - Color_E4899F14: {r: 0, g: 0.010633132, b: 0.22745098, a: 0}
+    - Color_FB06DE9D: {r: 0, g: 1.2793348, b: 1.7207954, a: 0}
+    - Vector2_48CB326E: {r: 0, g: 0, b: 0, a: 0}

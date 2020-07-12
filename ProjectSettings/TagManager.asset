@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Weapon
+  - Empty
+  - Player1
+  - Player2
+  - MobWeapon
+  - Mob
+  - Shop
   layers:
   - Default
   - TransparentFX
@@ -15,9 +21,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
+  - Character
+  - Mob
+  - Shop
   - 
   - 
   - 
